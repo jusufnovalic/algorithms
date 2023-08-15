@@ -60,4 +60,20 @@ void main() {
     }
     Display();
     ReverseDisplay();
+    // instead of for loop you can use switch case inside of while loop 
+    // like this:
+    // int choice,int num; 
+    // while(1){
+    //     printf("input your choice 1-Add node, 2-Display node, 3-Reverse display: "); 
+    //     scanf("%d",&choice);
+    //     switch(choice){
+    //         case 1: printf("insert element");scanf("%d",&num);insert(num);break;
+    //         case 2: Display(); break;
+    //         case 3: ReverseDisplay(); break;
+    //         case 4: break;
+    //     }
+    //     if(choice == 4)break; // to break while loop
+    // }
+    // this way you can add as many elements you want and delete them whenever you want
+    // return 0; 
 }
